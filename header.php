@@ -58,9 +58,9 @@ function validate(){
                 alert("Mobile Number can be of 10 numbers only!!")
                 return
             }
-            var emailR = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+            var emailR = /^\w+([\.-]?\w+)+@(movieshub.in|movieshub.com)$/ 
             if (!emailR.test(email1.value)) {
-                alert("Invalid Email-id!!")
+                alert("Invalid Email-id!! Only official mail-id allowed!!")
                 return
             }
 
